@@ -42,7 +42,7 @@ fn setup(
             material,
             &mut meshes,
             ShapeType::Circle(60.0),
-            TessellationMode::Fill(&FillOptions::default())
+            TessellationMode::Fill(&FillOptions::default()),
             Vec3::new(0.0, 0.0, 0.0).into(),
         ));
 }
